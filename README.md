@@ -1,3 +1,31 @@
+
+Laravel v10.50.0 (PHP v8.2.4)
+Database:MySQL
+
+--------Dependencies using package for auth-----------
+Laravel authentication: laravel/breeze --dev
+
+run command
+----------database migrate & seed-----------
+Database Seeder:
+php artisan migrate
+
+php artisan db:seed --class=SuperUserSeeder
+
+--------------- For asset---------------------
+npm run dev && npm run build
+
+--------- Use Common Credentials for users-----------
+Super-admin 
+email id => superadmin@example.com
+password => super123
+
+
+Client admin or member
+email id => 
+password => user12345
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
